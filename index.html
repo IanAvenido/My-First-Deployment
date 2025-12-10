@@ -1,9 +1,73 @@
-<h1>My First Cloud Deployment</h1>
-<h2>Hello, my name is Ian Avenido</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <style>
+        /* Fullscreen gradient background with subtle moving animation */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            overflow: hidden;
+            background: linear-gradient(120deg, #000000, #1a1a1a, #000000);
+            background-size: 300% 300%;
+            animation: moveGradient 12s ease infinite;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
 
-<img src="images.jpg" width="200"/>
+        @keyframes moveGradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
 
-<p>This is my first deployed website!</p>
+        .container {
+            max-width: 600px;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            opacity: 0.8;
+        }
+
+        .btn {
+            margin-top: 25px;
+            display: inline-block;
+            padding: 12px 28px;
+            border: 1px solid white;
+            border-radius: 5px;
+            text-decoration: none;
+            color: white;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: white;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hi, I'm [Your Name]</h1>
+        <p>Welcome to my portfolio — showcasing my projects, skills, and journey.</p>
+        <a href="#" class="btn">View My Work</a>
+    </div>
+</body>
+</html>
+
 
 
 
